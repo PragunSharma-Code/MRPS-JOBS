@@ -11,32 +11,32 @@ const About = () => {
     {
       icon: Target,
       title: "Mission-Driven Excellence",
-      description: "We are committed to connecting exceptional talent with outstanding opportunities, creating lasting value for both candidates and clients through strategic recruitment solutions."
+      description: "M. R. SERVICES is a professionally managed manpower consultancy firm introduced as an esteemed organisation in the manpower solution industry. The firm is set up with the assistance of the most experienced and dedicated team of professionals. This team invests in its service to maintain a competitive edge and has invested in elaborate infrastructure, including state-of-the-art technology for communication and database access, facilitating personal contact on a global scale."
     },
     {
       icon: Users,
       title: "Client-Centric Approach",
-      description: "Building enduring partnerships through unwavering dedication, personalized service, and a deep understanding of your unique organizational needs and culture."
+      description: "The company welcomes clients to M. R. SERVICES, which is poised to take a significant role in searching for suitable enthusiastic, energetic, and talented persons for their organisation. The firm's core value proposition is to minimize the client's 'head-ache' for searching or recruiting a person , and clients can rely on them with confidence. M. R. SERVICES works in partnership with their clients to provide first-class solutions for their manpower requirements. This enables the firm's consultants to identify suitable candidates quickly in response to client requirements."
     },
     {
       icon: Award,
       title: "Quality Assurance",
-      description: "Delivering premium recruitment solutions with proven results, rigorous screening processes, and a track record that speaks to our commitment to excellence."
+      description: "The company's team of professionals has adequate experience in identifying and short-listing potential candidates as per specific client requirements. M. R. SERVICES states they are able to source for the best candidates for a client's company. This focus on quality candidates means that there will be an increased profitability from shorter training time, a lower attrition rate, and an enhanced productivity for the client. The unique and complex method to assess and select candidates is done by expert professionals, which M. R. SERVICES claims makes it apart from other manpower consultants."
     },
     {
       icon: TrendingUp,
       title: "Growth-Oriented Vision",
-      description: "Empowering careers while strengthening business success through strategic talent placement that drives organizational growth and individual professional development."
+      description: "M. R. SERVICES is described as a deep-rooted fast-growing company in India. Every day, the firm tries to proactively expand its local, regional, and global database using the Internet, strategic alliances, a network of sub-vendors, job fairs, specialist magazines, and referrals. After identifying a dire need for quality training and continuing education through in-depth market research, the research was translated into concrete action. This diversification has not just added synergy to its existing business portfolio but has greatly enhanced its credibility and success in the market. The company has been able to expand its scale of operations and accelerate its speed of response."
     },
     {
       icon: Building2,
       title: "Industry Expertise",
-      description: "Specialized knowledge in IT, Banking, and NBFC sectors, enabling us to understand nuanced requirements and deliver candidates who truly fit your organizational vision."
+      description: "The company's fields of expertise began last decade , starting with providing consultation in recruiting and supplying human resources to the foreign and local employment market. While this remains a major stronghold , the firm is now also engaged in several related activities. These include providing consultation in Recruitment and Contract Supply of Personnel, Career Guidance Services, and Admission guidance for higher Education in India and abroad. The firm has 16 consultants engaged full-time who professionally \"head hunt\" candidates across various industries."
     },
     {
       icon: Globe,
       title: "Pan-India Presence",
-      description: "Strategic operations across major Indian cities, providing localized expertise with national reach to serve diverse markets and talent pools effectively."
+      description: "The headquarters of M. R. Services is located in New Delhi, INDIA. The company's 16 full-time consultants \"head hunt\" candidates all across the country through various contacts. M. R. SERVICES also states that it has the wide network in India besides overseas offices."
     }
   ];
 
@@ -45,7 +45,7 @@ const About = () => {
       {/* Background decorative elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
-      
+
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -78,36 +78,20 @@ const About = () => {
             className="glass-card p-10 rounded-3xl shadow-elegant border border-white/20"
           >
             <h3 className="text-3xl md:text-4xl font-bold text-primary mb-8">
-              Your Premier Recruitment Partner
+              A Partnership in Manpower Solutions
             </h3>
             <div className="space-y-6 text-foreground/85 leading-relaxed text-lg">
               <p>
-                MRPS Jobs is a professionally managed recruitment and staffing consultancy that has 
-                firmly established itself as a distinguished and trusted name in the talent acquisition 
-                industry. With our headquarters strategically located in New Delhi and expanded operations 
-                in Bangalore, we have positioned ourselves to serve organizations across India with 
-                unparalleled dedication and expertise.
+                M. R. SERVICES is a professionally managed manpower consultancy firm and an esteemed organisation in the manpower solution industry. We are poised for taking a more significant role in searching for suitable enthusiastic, energetic, and talented persons for your organisation. In fact, we minimize your 'head-ache' for searching or recruiting a person for your organization , and you can rely on us with confidence.
               </p>
               <p>
-                Our specialization spans the dynamic and ever-evolving sectors of Information Technology, 
-                Banking, and Non-Banking Financial Companies (NBFCs). Through years of focused experience, 
-                we have developed deep industry insights that enable us to understand the intricate 
-                requirements of these sectors, allowing us to deliver talent solutions that perfectly 
-                align with organizational objectives and cultural values.
+                M. R. SERVICES works in partnership with their clients to provide first-class solutions for their manpower requirements. The firm is set up with the assistance of the most experienced and dedicated team of professionals who have the adequate experience in identifying and short-listing the potential candidates as per specific client requirements.
               </p>
               <p>
-                We maintain an extensive and meticulously curated database of skilled professionals, 
-                ranging from entry-level talent to C-suite executives, ensuring we can meet diverse 
-                organizational needs with remarkable efficiency. Our proven track record of successful 
-                placements demonstrates our ability to match the right talent with the right opportunity, 
-                creating value that extends far beyond the initial hire.
+                This professional approach leads to tangible benefits for your company. We are able to source for the best candidates for your company. This means that there will be an increased profitability from shorter training time, a lower attrition rate, and an enhanced productivity.
               </p>
               <p>
-                What truly sets MRPS Jobs apart is our commitment to building lasting relationships. 
-                We don't just fill positions; we forge strategic partnerships with our clients, taking 
-                the time to understand their unique challenges, growth trajectories, and talent requirements. 
-                This client-centric approach, combined with our candidate-focused methodology, ensures that 
-                every placement we make contributes to mutual success and long-term satisfaction.
+                What sets M. R. SERVICES apart from other manpower consultants is the unique and complex method used to assess and select candidates, which is done by expert professionals at the firm.
               </p>
             </div>
           </motion.div>
@@ -123,32 +107,28 @@ const About = () => {
             </h3>
             <div className="space-y-6 text-foreground/85 leading-relaxed text-lg">
               <p>
-                MRPS Jobs envisions a future where every organization has access to the exceptional 
-                talent needed to drive innovation and growth, and where every professional finds 
-                opportunities that align with their skills, aspirations, and career goals. We are 
-                deeply committed to being the bridge that connects these two vital needs, creating 
-                ecosystems of success that benefit individuals, organizations, and the broader economy.
+                M. R. SERVICES is a deep-rooted, fast-growing company in India. We are committed to investing in Service in order to maintain this competitive edge. As part of this commitment, M. R. SERVICES has invested in elaborate infrastructure, including state-of-the-art technology for communication and database access, facilitating personal contact on a global scale. This has enabled the company to expand its scale of operations and also accelerate the speed of response.
               </p>
               <p>
-                Our operational excellence is rooted in our ability to significantly reduce time-to-hire 
-                while maintaining the highest standards of candidate quality. We understand that in 
-                today's fast-paced business environment, speed and quality are not mutually exclusive—they 
-                are essential partners. Through our streamlined processes, advanced recruitment technologies, 
-                and expert team, we deliver both with consistency and reliability.
+                Our vision for growth includes proactive expansion. Every day, M. R. SERVICES is trying to proactively expand its local, regional, and global database using:
+
+                The Internet
+
+                Strategic alliances
+
+                A network of sub-vendors
+
+                Job fairs
+
+                Specialist magazines
+
+                Referrals
               </p>
               <p>
-                The consistent recognition we receive from our clients speaks volumes about the caliber 
-                of professionals we place. Organizations repeatedly acknowledge the exceptional performance, 
-                cultural fit, and long-term value of our recruits, reinforcing our position as a trusted 
-                partner in their growth journey. These testimonials and recommendations are not just 
-                accolades—they are the foundation upon which we continue to build our reputation.
+                This commitment to expansion enables our consultants to identify suitable candidates quickly in response to your requirements.
               </p>
               <p>
-                At MRPS Jobs, we believe that recruitment is more than a transaction; it's a transformation. 
-                Every placement we make has the potential to change careers, strengthen teams, and propel 
-                organizations toward their strategic goals. This responsibility drives our unwavering 
-                commitment to excellence in everything we do, from initial candidate sourcing to final 
-                placement and beyond.
+                Furthermore, our fields of expertise, which began last decade with recruiting and supplying human resources, have expanded. After in-depth research identified a dire need for quality training and continuing education , this research was translated into concrete action. M. R. SERVICES is now engaged in several related activities, such as providing consultation in Recruitment and Contract Supply of Personnel, Career Guidance Services, and Admission guidance for higher Education in India and abroad. This diversification has added not just synergy to its existing business portfolio but has greatly enhanced its credibility and success in the market.
               </p>
             </div>
           </motion.div>

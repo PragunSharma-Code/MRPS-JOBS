@@ -11,26 +11,28 @@ const Services = () => {
   const services = [
     {
       icon: Search,
-      title: "Executive Search",
-      description: "Our executive search practice is designed for organizations seeking transformational leadership. We specialize in identifying and attracting senior-level professionals, C-suite executives, and board members who possess the strategic vision, industry expertise, and leadership capabilities to drive organizational excellence. Through a confidential, consultative approach, we partner with you to understand your unique leadership requirements, organizational culture, and strategic objectives. Our rigorous assessment process ensures that we present candidates who not only meet technical qualifications but also align with your values and long-term vision.",
+      title: "Benefits of Outsourcing",
+      description: "The core idea is that successful companies are strategically choosing to offload or \"relieve themselves\" of tasks that, while necessary, are considered non-essential business problems. These non-essential problems often consume a significant amount of the company's time. By utilizing Outsourcing, which is identified as their key strategy, companies can save money.",
       features: [
-        "Confidential search and discreet candidate engagement",
-        "Comprehensive leadership assessment and profiling",
+        "Strategic Relief: More of today's successful companies are relieving themselves of non-essential business problems.",
+        "Time Management: These non-essential tasks typically take up so much of their time.",
         "Deep industry expertise across IT, Banking, and NBFC sectors",
         "Strategic succession planning consultation",
-        "Cultural fit evaluation and onboarding support"
+        "Cost Efficiency: In the process of relieving these problems, companies are saving money."
       ]
     },
     {
       icon: Briefcase,
-      title: "Talent Acquisition",
-      description: "Our comprehensive talent acquisition services deliver end-to-end recruitment solutions for mid to senior-level professionals across specialized industries. We leverage our extensive network, advanced sourcing methodologies, and deep market intelligence to identify and engage passive candidates who may not be actively job searching but represent exceptional talent. Our consultative approach ensures we understand not just the job requirements, but the broader context of your team dynamics, growth plans, and organizational culture, enabling us to deliver candidates who will thrive in your environment and contribute meaningfully from day one.",
+      title: "Support and facilities to be provided by M.R. Services",
+      description: "M. R. SERVICES offers extensive support and facilities to manage all non-core HR and administrative functions for outsourced employees. By placing employees on their own payroll , M. R. SERVICES assumes responsibility for crucial compliance and operational tasks, including the preparation and issuance of all salary and payslip documentation. They manage mandatory government submissions like Provident Fund (PF) challans and handle any PF claims , along with evaluating and depositing Tax Deducted at Source (TDS) and issuing Form 16. Furthermore, the company maintains comprehensive records for attendance and employee leave , and facilitates arrangements for various insurance covers. Their structured process ensures timely salary disbursement by the 7th of every month, provided the client clears necessary data and invoices by the 4th.",
       features: [
-        "Tailored sourcing strategies for specialized roles",
-        "Advanced skill matching and competency assessment",
-        "Fast turnaround without compromising quality",
-        "Market intelligence and salary benchmarking",
-        "Candidate experience optimization throughout the process"
+        "Salary and Payslip Management: The monthly salary statements shall be prepared by M. R. SERVICES, and salary slips to all employees shall be issued separately.",
+        "PF Compliance: They handle the preparation of PF challans and deposit the amount in the department. They also manage any claims arising out of PF with the concerned department.",
+        "TDS and Tax Forms: M. R. SERVICES performs TDS Evaluation, deposits the amount in the Income Tax Department, and issues Form 16 to the employee (If applicable).",
+        "Leave Records Management: They maintain the leave record for all employees, making information available as required. All records pertaining to casual/earned Leaves shall be kept by M. R. SERVICES.",
+        "Issuance of Appointment Letters: M. R. SERVICES shall issue appointment letters to all employees, mentioning the Employment terms along with salary details.",
+        "Attendance Tracking: Attendance records shall be maintained by M. R. SERVICES in manual and computerized form.",
+        "Timely Salary Payment: After the client clears the Timesheet data and Invoices by the 4th of every month, the salaries can be paid by the 7th of every month."
       ]
     },
     {
@@ -64,7 +66,7 @@ const Services = () => {
       {/* Background elements */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 right-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl"></div>
-      
+
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -85,7 +87,7 @@ const Services = () => {
           </h2>
           <div className="w-32 h-1.5 bg-gradient-primary mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Tailored talent acquisition strategies designed to meet your unique organizational 
+            Tailored talent acquisition strategies designed to meet your unique organizational
             needs and drive sustainable growth through exceptional human capital
           </p>
         </motion.div>
@@ -111,11 +113,11 @@ const Services = () => {
                       </h3>
                     </div>
                   </div>
-                  
+
                   <p className="text-foreground/80 mb-8 leading-relaxed text-lg">
                     {service.description}
                   </p>
-                  
+
                   <div className="space-y-3">
                     <h4 className="font-semibold text-primary text-lg mb-4">Key Features:</h4>
                     {service.features.map((feature, idx) => (
