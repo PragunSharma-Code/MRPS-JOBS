@@ -15,8 +15,8 @@ const Clients = () => {
     "U-To Solutions",
     "Tumlare Software",
     "ACT21",
-    "GiSoft",
-    "CGSL",
+    "4iSoft",
+    "CBSL",
     "Mckinsey",
     "HCL Technologies",
     "Krista Software",
@@ -26,7 +26,8 @@ const Clients = () => {
     "Svakarma",
     "STCI",
     "Astun Technologies",
-    "and many more...",
+    "Cirrius Technologies",
+    "Ansal Group",
   ];
 
   return (
