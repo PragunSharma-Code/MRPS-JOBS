@@ -36,20 +36,25 @@ const Footer = () => {
       {/* Decorative elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
-      
+
       <div className="container mx-auto px-6 py-16 relative z-10">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
             <h3 className="text-3xl font-bold mb-6">MRPS Jobs</h3>
             <p className="text-white/85 leading-relaxed mb-6">
-              Your premier recruitment partner specializing in IT, Banking, and NBFC sectors. 
+              Your premier recruitment partner specializing in IT, Banking, and NBFC sectors.
               Empowering careers and enabling growth across India.
             </p>
             <div className="flex space-x-4">
-              <a href="http://www.linkedin.com/in/yogesh-sharma-48b2225" target="_blank" className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all hover:scale-110">
-                <Linkedin className="w-5 h-5" />
-              </a>
+
+
+              <div className="flex items-center justify-between gap-x-4">
+                <a href="http://www.linkedin.com/in/yogesh-sharma-48b2225" target="_blank" className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all hover:scale-110">
+                  <Linkedin className="w-5 h-5" />
+                </a>
+                <span className="font-bold">LinkedIn</span>
+              </div>
               {/* <a href="#" className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all hover:scale-110">
                 <Twitter className="w-5 h-5" />
               </a> */}
@@ -96,7 +101,7 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-1 text-white/80" />
                 <p className="text-white/80">
                   New Delhi, India<br />
-                  Bangalore Office
+                  Pitampura Office
                 </p>
               </div>
               <div className="flex items-center space-x-3">
