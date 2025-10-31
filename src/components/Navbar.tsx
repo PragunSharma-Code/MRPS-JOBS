@@ -22,7 +22,7 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
+    { name: "Hot Jobs", href: "#hotjobs" },
     { name: "Clients", href: "#clients" },
     { name: "Contact", href: "#contact" },
   ];
@@ -57,7 +57,7 @@ const Navbar = () => {
             <span className={`text-2xl font-bold transition-colors duration-300 ${
               isScrolled ? "bg-gradient-primary bg-clip-text text-transparent" : "text-white text-shadow"
             }`}>
-              MRPS Jobs
+              <img src='./logo.png' alt="LOGO" width='250' height='250' />
             </span>
           </motion.div>
 

@@ -71,10 +71,10 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="flex items-center space-x-2 mb-6"
             >
-              <Sparkles className="w-6 h-6 text-white" />
+              {/* <Sparkles className="w-6 h-6 text-white" />
               <span className="text-white/90 font-medium tracking-wide uppercase text-sm">
                 Premier Recruitment Solutions
-              </span>
+              </span> */}
             </motion.div>
 
             <motion.h1

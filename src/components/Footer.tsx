@@ -47,15 +47,15 @@ const Footer = () => {
               Empowering careers and enabling growth across India.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all hover:scale-110">
+              <a href="http://www.linkedin.com/in/yogesh-sharma-48b2225" target="_blank" className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all hover:scale-110">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all hover:scale-110">
+              {/* <a href="#" className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all hover:scale-110">
                 <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all hover:scale-110">
+              </a> */}
+              {/* <a href="#" className="w-10 h-10 bg-white/10 backdrop-blur-sm rounded-lg flex items-center justify-center hover:bg-white/20 transition-all hover:scale-110">
                 <Facebook className="w-5 h-5" />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -101,8 +101,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 flex-shrink-0 text-white/80" />
-                <a href="tel:+911XXXXXXXX" className="text-white/80 hover:text-white transition-colors">
-                  +91 11 XXXX XXXX
+                <a href="tel:+9811424596" className="text-white/80 hover:text-white transition-colors">
+                  +91 98 1142 4596
                 </a>
               </div>
               <div className="flex items-center space-x-3">

@@ -8,22 +8,25 @@ const Clients = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const clients = [
+    "SCICOM InfoTech",
+    "DMI Innovation",
+    "SS&C Globeop",
+    "Kale Consultants",
+    "U-To Solutions",
+    "Tumlare Software",
+    "ACT21",
+    "GiSoft",
+    "CGSL",
+    "Mckinsey",
     "HCL Technologies",
-    "Hans Hyundai",
-    "Daikin Industries",
-    "NIIT Limited",
-    "Ansal Properties",
-    "Max Healthcare",
-    "Panacea Biotec",
-    "Shipping Corporation of India",
-    "Deloitte",
-    "SAIC Motor",
-    "Omnie Solutions",
-    "Galaxy Surfactants",
-    "Applitech Solutions",
-    "Cognosys Technologies",
-    "Infopro Systems",
-    "Streco Digitex"
+    "Krista Software",
+    "Cygnus Ujala",
+    "DCB Bank",
+    "Kohtak Mahindra Bank",
+    "Svakarma",
+    "STCI",
+    "Astun Technologies",
+    "and many more...",
   ];
 
   return (

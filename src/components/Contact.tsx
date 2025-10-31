@@ -30,8 +30,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: "+91 11 XXXX XXXX",
-      link: "tel:+911XXXXXXXX",
+      details: "+91 98 1142 4596",
+      link: "tel:+919811424596",
       description: "Monday to Friday, 9 AM - 6 PM"
     },
     {
@@ -39,7 +39,7 @@ const Contact = () => {
       title: "Visit Us",
       details: "New Delhi, India",
       link: null,
-      description: "Bangalore office also available"
+      description: "Pitampura office also available"
     }
   ];
 
