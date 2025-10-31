@@ -61,7 +61,7 @@ const Contact = () => {
       {/* Background decorations */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl"></div>
-      
+
       <div className="container mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -82,8 +82,8 @@ const Contact = () => {
           </h2>
           <div className="w-32 h-1.5 bg-gradient-primary mx-auto mb-8 rounded-full"></div>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Ready to transform your recruitment strategy or accelerate your career? Our team of 
-            experts is here to help you achieve your goals. Reach out today and discover how MRPS 
+            Ready to transform your recruitment strategy or accelerate your career? Our team of
+            experts is here to help you achieve your goals. Reach out today and discover how MRPS
             Jobs can make a difference.
           </p>
         </motion.div>
@@ -99,7 +99,7 @@ const Contact = () => {
             <Card className="glass-card p-10 shadow-elegant border border-white/30">
               <h3 className="text-3xl font-bold text-primary mb-3">Send Us a Message</h3>
               <p className="text-foreground/70 mb-8 text-lg leading-relaxed">
-                Fill out the form below and our team will respond to your inquiry within one business day. 
+                Fill out the form below and our team will respond to your inquiry within one business day.
                 We're committed to providing prompt, professional service.
               </p>
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -179,7 +179,7 @@ const Contact = () => {
             <div className="glass-card p-8 rounded-2xl shadow-elegant border border-white/30">
               <h3 className="text-2xl font-bold text-primary mb-6">Contact Information</h3>
               <p className="text-foreground/75 mb-8 leading-relaxed">
-                Whether you're seeking exceptional talent or exploring career opportunities, 
+                Whether you're seeking exceptional talent or exploring career opportunities,
                 our dedicated team is ready to assist you through any of these channels.
               </p>
 
@@ -225,33 +225,21 @@ const Contact = () => {
               transition={{ duration: 0.6, delay: 1 }}
               className="glass-card p-8 rounded-2xl shadow-elegant border border-white/30 bg-gradient-primary text-white"
             >
-              <div className="flex items-start space-x-4 mb-4">
-                <Clock className="w-6 h-6 flex-shrink-0 mt-1" />
-                <div>
-                  <h4 className="font-bold text-lg mb-3">Office Hours</h4>
-                  <div className="space-y-2 text-white/95">
-                    <p className="flex justify-between">
-                      <span>Monday - Friday:</span>
-                      <span className="font-medium">9:00 AM - 6:00 PM</span>
-                    </p>
-                    <p className="flex justify-between">
-                      <span>Saturday:</span>
-                      <span className="font-medium">9:00 AM - 1:00 PM</span>
-                    </p>
-                    <p className="flex justify-between">
-                      <span>Sunday:</span>
-                      <span className="font-medium">Closed</span>
-                    </p>
-                  </div>
+              {/* <p className="text-white/20 relative z-20">Know us Better!</p> */}
+              <div className="mt-6 pt-6 border-t border-white/20">
+                <div className="relative w-full h-[300px] overflow-hidden rounded-xl">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8568.44213224496!2d77.13499261460557!3d28.6888231735934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1761904597977!5m2!1sen!2sin"
+                    className="absolute top-0 left-0 w-full h-full rounded-xl"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
               </div>
-              <div className="mt-6 pt-6 border-t border-white/20">
-                <p className="text-sm text-white/90 leading-relaxed">
-                  For urgent matters outside business hours, please send us an email and we'll 
-                  respond as soon as possible.
-                </p>
-              </div>
             </motion.div>
+
           </motion.div>
         </div>
       </div>
